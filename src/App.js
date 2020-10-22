@@ -8,7 +8,6 @@ import coronaImage from "./images/image-3.jpg";
 import LoadingMask from "react-loadingmask";
 import axios from "axios";
 import "./loader.css";
-import "react-loadingmask/dist/react-loadingmask.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -72,7 +71,7 @@ class App extends React.Component {
 
             */}
 
-            {/*<!-- SPINNER OoRBITS -->*/}
+            {/*<!-- SPINNER ORBITS -->*/}
             <div class="spinner-box">
               <div class="blue-orbit leo"></div>
 
