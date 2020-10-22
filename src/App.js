@@ -43,13 +43,9 @@ class App extends React.Component {
         <div className={styles.container}>
           <img className={styles.image} src={coronaImage} alt="COVID-19" />
           <br/>
-          <text>
             <b>Global and Country Wise Cases of Corona Virus</b>
-          </text>
           <br/>
-          <text>
             <i>(For a particular select a Country from below)</i>
-          </text>
           <br/>
           <br/>
           <Cards data={data} country={country} />
@@ -60,17 +56,7 @@ class App extends React.Component {
     } else {
       return (
         <div className={styles.container}>
-          {/**********7 different types of spinner using loader.css**********/}
-            {/*GRADIENT SPINNER *
-            <div class="spinner-box">
-              <div class="circle-border">
-                <div class="circle-core"></div>
-              </div>
-            </div>
-
-            */}
-
-            {/*<!-- SPINNER ORBITS -->*/}
+       
             <div className="spinner-box">
               <div className="blue-orbit leo"></div>
 
@@ -83,7 +69,6 @@ class App extends React.Component {
               <div className="white-orbit w3 leo"></div>
             </div>
 
-            {/*<!-- GRADIENT CIRCLE PLANES -->*/}
             <div className="spinner-box">
               <div className="leo-border-1">
                 <div className="leo-core-1"></div>
@@ -93,7 +78,6 @@ class App extends React.Component {
               </div>
             </div>
 
-            {/*<!-- SPINNING SQUARES -->*/}
 
             <div className="spinner-box">
               <div className="configure-border-1">
