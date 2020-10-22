@@ -1,33 +1,33 @@
 .container {
-    margin: 50px 0px;
+    margin: 50px 0;
   }
   
   .card {
-    margin: 0 2% !important;
+    margin: 0 2% ;
   }
   
   .infected {
-    background-color: rgba(102, 179, 255, 0.5) !important;
-    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    background-color: #66b3ff80 ;
+    border-bottom: 10px solid #0000ff80;
   }
   
   .recovered {
-    background-color: rgba(191, 242, 202, 0.5) !important;
-    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+    background-color: #bff2ca80;
+    border-bottom: 10px solid #00ff0080;
   }
   
   .deaths {
-    background-color: rgba(237, 178, 178, 0.5) !important;
-    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+    background-color: #edb2b280 ;
+    border-bottom: 10px solid #ff000080;
   }
   
   .active {
-    background-color: rgba(237, 199, 152, 0.5) !important;
-    border-bottom: 10px solid rgba(242, 234, 0, 0.5);
+    background-color: #edc79880 ;
+    border-bottom: 10px solid #f2ea0080;
   }
   
   @media (max-width: 770px) {
     .card {
-      margin: 2% 0 !important;
+      margin: 2% 0 ;
     }
   }
