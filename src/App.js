@@ -42,16 +42,16 @@ class App extends React.Component {
       return (
         <div className={styles.container}>
           <img className={styles.image} src={coronaImage} alt="COVID-19" />
-          <br />
+          <br/>
           <text>
             <b>Global and Country Wise Cases of Corona Virus</b>
           </text>
-          <br />
+          <br/>
           <text>
             <i>(For a particular select a Country from below)</i>
           </text>
-          <br />
-          <br />
+          <br/>
+          <br/>
           <Cards data={data} country={country} />
           <CountryPicker handleCountryChange={this.handleCountryChange} />
           <Chart data={data} country={country} />
@@ -71,36 +71,36 @@ class App extends React.Component {
             */}
 
             {/*<!-- SPINNER ORBITS -->*/}
-            <div class="spinner-box">
-              <div class="blue-orbit leo"></div>
+            <div className="spinner-box">
+              <div className="blue-orbit leo"></div>
 
-              <div class="green-orbit leo"></div>
+              <div className="green-orbit leo"></div>
 
-              <div class="red-orbit leo"></div>
+              <div className="red-orbit leo"></div>
 
-              <div class="white-orbit w1 leo"></div>
-              <div class="white-orbit w2 leo"></div>
-              <div class="white-orbit w3 leo"></div>
+              <div className="white-orbit w1 leo"></div>
+              <div className="white-orbit w2 leo"></div>
+              <div className="white-orbit w3 leo"></div>
             </div>
 
             {/*<!-- GRADIENT CIRCLE PLANES -->*/}
-            <div class="spinner-box">
-              <div class="leo-border-1">
-                <div class="leo-core-1"></div>
+            <div className="spinner-box">
+              <div className="leo-border-1">
+                <div className="leo-core-1"></div>
               </div>
-              <div class="leo-border-2">
-                <div class="leo-core-2"></div>
+              <div className="leo-border-2">
+                <div className="leo-core-2"></div>
               </div>
             </div>
 
             {/*<!-- SPINNING SQUARES -->*/}
 
-            <div class="spinner-box">
-              <div class="configure-border-1">
-                <div class="configure-core"></div>
+            <div className="spinner-box">
+              <div className="configure-border-1">
+                <div className="configure-core"></div>
               </div>
-              <div class="configure-border-2">
-                <div class="configure-core"></div>
+              <div className="configure-border-2">
+                <div className="configure-core"></div>
               </div>
             </div>
           </div>
