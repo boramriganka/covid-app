@@ -72,7 +72,7 @@ class App extends React.Component {
 
             */}
 
-            {/*<!-- SPINNER ORBITS -->*/}
+            {/*<!-- SPINNER OoRBITS -->*/}
             <div class="spinner-box">
               <div class="blue-orbit leo"></div>
 
