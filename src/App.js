@@ -5,7 +5,6 @@ import Chart from "./Components/Chart/Chart";
 import styles from "./App.module.css";
 import { fetchData } from "./api/api";
 import coronaImage from "./images/image-3.jpg";
-import LoadingMask from "react-loadingmask";
 import axios from "axios";
 import "./loader.css";
 class App extends React.Component {
