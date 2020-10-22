@@ -66,20 +66,7 @@
   }
   
   /* GRID STYLING */
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    min-height: 100vh;
-    background-color: #1d2630;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-  
+ 
   .spinner-box {
     width: 300px;
     height: 300px;
@@ -95,7 +82,6 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    padding: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +102,6 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    padding: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +123,6 @@
   .circle-border {
     width: 150px;
     height: 150px;
-    padding: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +144,6 @@
   .configure-border-1 {
     width: 115px;
     height: 115px;
-    padding: 3px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -172,7 +155,6 @@
   .configure-border-2 {
     width: 115px;
     height: 115px;
-    padding: 3px;
     left: -115px;
     display: flex;
     justify-content: center;
@@ -237,6 +219,7 @@
       width: 165px;
       height: 165px;
       animation: spin3D 12s linear 0s infinite;
+      -moz-animation: spin 12s linear 0s infinite;
     -webkit-animation: spin 12s linear 0s infinite;
   }
   
@@ -244,6 +227,7 @@
       width: 120px;
       height: 120px;
       animation: spin3D 7.4s linear 0s infinite;
+      -moz-animation: spin 7.4s linear 0s infinite;
     -webkit-animation: spin 7.4s linear 0s infinite;
   }
   
@@ -251,6 +235,7 @@
       width: 90px;
       height: 90px;
     animation: spin3D 3s linear 0s infinite;
+    -moz-animation: spin 3s linear 0s infinite;
     -webkit-animation: spin 3s linear 0s infinite;
   }
   
@@ -283,6 +268,7 @@
       height: 165px;
     border: 1px solid #91daffa5;
     animation: spin3D 3s linear .2s infinite;
+    -moz-animation: spin3D 3s linear .2s infinite;
     -webkit-animation: spin3D 3s linear .2s infinite;
   }
   
@@ -291,6 +277,7 @@
       height: 120px;
     border: 1px solid #91ffbfa5;
     animation: spin3D 2s linear 0s infinite;
+    -moz-animation: spin3D 2s linear 0s infinite;
     -webkit-animation: spin3D 2s linear 0s infinite;
   }
   
@@ -299,6 +286,7 @@
       height: 90px;
     border: 1px solid #ffca91a5;
     animation: spin3D 1s linear 0s infinite;
+    -moz-animation: spin3D 1s linear 0s infinite;
     -webkit-animation: spin3D 1s linear 0s infinite;
   }
   
@@ -307,6 +295,7 @@
       height: 60px;
     border: 2px solid #ffffff;
     animation: spin3D 10s linear 0s infinite;
+    -moz-animation: spin3D 10s linear 0s infinite;
     -webkit-animation: spin3D 10s linear 0s infinite;
   }
   
