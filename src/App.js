@@ -6,6 +6,7 @@ import styles from "./App.module.css";
 import { fetchData } from "./api/api";
 import coronaImage from "./images/image-3.jpg";
 import axios from "axios";
+import "./loader.css";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -37,6 +38,7 @@ class App extends React.Component {
   };
   render() {
     const { data, country } = this.state;
+    if (this.state.isLoading) {
       return (
         <div className={styles.container}>
           <img className={styles.image} src={coronaImage} alt="COVID-19" />
@@ -54,7 +56,21 @@ class App extends React.Component {
           <CountryPicker handleCountryChange={this.handleCountryChange} />
           <Chart data={data} country={country} />
         </div>
-  )
+      );
+    } else {
+      return (
+        <div className={styles.container}>
+            <div className="spinner-box">
+              <div className="configure-border-1">
+                <div className="configure-core"></div>
+              </div>
+              <div className="configure-border-2">
+                <div className="configure-core"></div>
+              </div>
+            </div>
+          </div>
+      );
+    }
   }
 }
 
