@@ -5,7 +5,6 @@ import Chart from "./Components/Chart/Chart";
 import styles from "./App.module.css";
 import { fetchData } from "./api/api";
 import coronaImage from "./images/image-3.jpg";
-import Divider from '@material-ui/core/Divider';
 
 class App extends React.Component {
   state = {
@@ -40,7 +39,6 @@ class App extends React.Component {
         <Cards data={data} country={country} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
-        <Divider/>
       </div>
     );
   }
