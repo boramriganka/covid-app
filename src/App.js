@@ -5,7 +5,6 @@ import Chart from "./Components/Chart/Chart";
 import styles from "./App.module.css";
 import { fetchData } from "./api/api";
 import coronaImage from "./images/image-3.jpg";
-import Chartgeo from "./Components/Chart/geochart";
 import Divider from '@material-ui/core/Divider';
 
 class App extends React.Component {
