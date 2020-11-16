@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './container.css';
 import App from './App';
 function Header() {
