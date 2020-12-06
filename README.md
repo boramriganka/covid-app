@@ -7,6 +7,7 @@ Covid-app is a App that gives you live update of coronavirus cases around the wo
 ```diff
 - It can provide information about the global and country specific information about covid-19
 - It uses react-charts to show information in graph
+- You can select/deselect different labels in graphs to compare between deaths,recovered,infected..etc
 - It has a really clean interface
 - It has a Dark theme plugin for a pleasant experience at night.
 - It is responsive for every screen available
